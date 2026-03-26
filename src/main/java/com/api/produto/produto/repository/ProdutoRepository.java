@@ -22,7 +22,4 @@ public interface ProdutoRepository extends
        """)
     List<ProdutoResponseDto> listarProjetado();
 
-
-
-
 }
