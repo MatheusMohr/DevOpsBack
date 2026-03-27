@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: produto
+  datasource:
+    url: jdbc:mysql://mysql-app:3306/produtos
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: mail.artostech.com.br
+    port: 465
+    username: senai@artostech.com.br
+    password: gPvXHt0QOeCP
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
